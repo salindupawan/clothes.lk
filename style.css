@@ -1,0 +1,55 @@
+.main-body{
+    background-color: rgb(252, 223, 240);
+}
+.logo{
+   height: 80px;
+    
+   background-image: url("resources/logo.png");
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat; 
+}
+
+@font-face {
+    font-family: "bello";
+    src: url("font/BellogiaFont.ttf");
+}
+@font-face {
+    font-family: "joesofin";
+    src: url("font/JosefinSans-Bold.ttf");
+}
+@font-face {
+    font-family: "simple";
+    src: url("font/Simple\ Plan.otf");
+}
+@font-face {
+    font-family: "quick";
+    src: url("font/Quicksand-Medium.ttf");
+}
+*{
+    font-family: "quick";
+    font-size: 12px;
+}
+
+.title1{
+font-family: "simple";
+font-size: 16px;
+letter-spacing: 3px;
+
+}
+.background{
+    background-image: url("resources/background.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.title2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.curserpoint{
+    cursor: pointer;
+}
+.Imageuploadh:hover{
+   opacity: .7;
+}
